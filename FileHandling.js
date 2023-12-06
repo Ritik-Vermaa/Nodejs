@@ -22,3 +22,5 @@ fs.readFile('./contact.txt' , 'utf-8' ,(err , result) =>{
     }
 });
 
+fs.appendFileSync("./test.txt" , '${Date.now()} Hey There\n');
+
